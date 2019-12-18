@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gd.spring.cloud.alibaba.blog.search.mapper.ArticleMapper">
+  <resultMap id="BaseResultMap" type="com.gd.spring.cloud.alibaba.blog.search.domain.Article">
+    <!--@mbg.generated generated on Wed Dec 11 15:00:14 CST 2019.-->
+    <!--@Table article-->
+    <id column="article_id" jdbcType="INTEGER" property="articleId" />
+    <result column="article_user_id" jdbcType="INTEGER" property="articleUserId" />
+    <result column="article_title" jdbcType="VARCHAR" property="articleTitle" />
+    <result column="article_content" jdbcType="LONGVARCHAR" property="articleContent" />
+    <result column="article_view_count" jdbcType="INTEGER" property="articleViewCount" />
+    <result column="article_comment_count" jdbcType="INTEGER" property="articleCommentCount" />
+    <result column="article_like_count" jdbcType="INTEGER" property="articleLikeCount" />
+    <result column="article_is_comment" jdbcType="INTEGER" property="articleIsComment" />
+    <result column="article_status" jdbcType="INTEGER" property="articleStatus" />
+    <result column="article_order" jdbcType="INTEGER" property="articleOrder" />
+    <result column="article_update_time" jdbcType="TIMESTAMP" property="articleUpdateTime" />
+    <result column="article_create_time" jdbcType="TIMESTAMP" property="articleCreateTime" />
+    <result column="article_summary" jdbcType="LONGVARCHAR" property="articleSummary" />
+  </resultMap>
+
+
+
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Wed Dec 11 15:00:14 CST 2019.-->
+    article_id, article_user_id, article_title, article_content, article_view_count, 
+    article_comment_count, article_like_count, article_is_comment, article_status, article_order, 
+    article_update_time, article_create_time, article_summary
+  </sql>
+
+
+  <select id="listAllNotWithContent" resultMap="BaseResultMap">
+    SELECT
+    article_id, article_user_id, article_title, article_create_time
+    FROM
+    article
+    WHERE article_status = 1
+    ORDER BY article_id DESC
+  </select>
+</mapper>

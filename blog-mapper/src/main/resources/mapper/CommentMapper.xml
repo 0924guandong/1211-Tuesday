@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gd.spring.cloud.alibaba.blog.search.mapper.CommentMapper">
+  <resultMap id="BaseResultMap" type="com.gd.spring.cloud.alibaba.blog.search.domain.Comment">
+    <!--@mbg.generated generated on Wed Dec 11 15:00:14 CST 2019.-->
+    <!--@Table comment-->
+    <id column="comment_id" jdbcType="INTEGER" property="commentId" />
+    <result column="comment_pid" jdbcType="INTEGER" property="commentPid" />
+    <result column="comment_pname" jdbcType="VARCHAR" property="commentPname" />
+    <result column="comment_article_id" jdbcType="INTEGER" property="commentArticleId" />
+    <result column="comment_author_name" jdbcType="VARCHAR" property="commentAuthorName" />
+    <result column="comment_author_email" jdbcType="VARCHAR" property="commentAuthorEmail" />
+    <result column="comment_author_url" jdbcType="VARCHAR" property="commentAuthorUrl" />
+    <result column="comment_author_avatar" jdbcType="VARCHAR" property="commentAuthorAvatar" />
+    <result column="comment_content" jdbcType="VARCHAR" property="commentContent" />
+    <result column="comment_agent" jdbcType="VARCHAR" property="commentAgent" />
+    <result column="comment_ip" jdbcType="VARCHAR" property="commentIp" />
+    <result column="comment_create_time" jdbcType="TIMESTAMP" property="commentCreateTime" />
+    <result column="comment_role" jdbcType="INTEGER" property="commentRole" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Wed Dec 11 15:00:14 CST 2019.-->
+    comment_id, comment_pid, comment_pname, comment_article_id, comment_author_name, 
+    comment_author_email, comment_author_url, comment_author_avatar, comment_content, 
+    comment_agent, comment_ip, comment_create_time, comment_role
+  </sql>
+</mapper>

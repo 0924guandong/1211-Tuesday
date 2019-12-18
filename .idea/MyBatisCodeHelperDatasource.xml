@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="addSerializeUid" value="true" />
+        <option name="commonMapperBaseClass" value="tk.mybatis.mapper.MyMapper" />
+        <option name="generateService" value="true" />
+        <option name="generateServiceInterface" value="true" />
+        <option name="javaMapperPackage" value="com.gd.spring.cloud.alibaba.blog.search.mapper" />
+        <option name="javaMapperPath" value="$PROJECT_DIR$/blog-mapper/src/main/java" />
+        <option name="javaModelPackage" value="com.gd.spring.cloud.alibaba.blog.search.domain" />
+        <option name="javaModelPath" value="$PROJECT_DIR$/blog-domain/src/main/java" />
+        <option name="lastDatabaseCrudChooseModuleName" value="blog-mapper" />
+        <option name="moduleNameToPackageAndPathMap">
+          <map>
+            <entry key="blog-mapper">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.gd.spring.cloud.alibaba.blog.search.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/blog-mapper/src/main/java" />
+                  <option name="javaModelPacakge" value="com.gd.spring.cloud.alibaba.blog.search.domain" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/blog-domain/src/main/java" />
+                  <option name="javaServiceInterfacePackage" value="com.gd.spring.cloud.alibaba.blog.search.service" />
+                  <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/blog-service/src/main/java" />
+                  <option name="javaServicePackage" value="com.gd.spring.cloud.alibaba.blog.search.service.Impl" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/blog-service/src/main/java" />
+                  <option name="xmlPackage" value="mapper" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/blog-mapper/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="tableGenerateConfigs">
+          <map>
+            <entry key="blogs:article">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="article_id" />
+                  <option name="javaModelName" value="Article" />
+                  <option name="moduleName" value="blog-mapper" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="blogs:article_category_ref">
+              <value>
+                <TableGenerateConfig>
+                  <option name="javaModelName" value="ArticleCategoryRef" />
+                  <option name="moduleName" value="blog-mapper" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="blogs:article_tag_ref">
+              <value>
+                <TableGenerateConfig>
+                  <option name="javaModelName" value="ArticleTagRef" />
+                  <option name="moduleName" value="blog-mapper" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="blogs:category">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="category_id" />
+                  <option name="javaModelName" value="Category" />
+                  <option name="moduleName" value="blog-mapper" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="blogs:comment">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="comment_id" />
+                  <option name="javaModelName" value="Comment" />
+                  <option name="moduleName" value="blog-mapper" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="blogs:link">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="link_id" />
+                  <option name="javaModelName" value="Link" />
+                  <option name="moduleName" value="blog-mapper" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="blogs:menu">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="menu_id" />
+                  <option name="javaModelName" value="Menu" />
+                  <option name="moduleName" value="blog-mapper" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="blogs:notice">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="notice_id" />
+                  <option name="javaModelName" value="Notice" />
+                  <option name="moduleName" value="blog-mapper" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="blogs:options">
+              <value>
+                <TableGenerateConfig>
+                  <option name="javaModelName" value="Options" />
+                  <option name="moduleName" value="blog-mapper" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="blogs:page">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="page_id" />
+                  <option name="javaModelName" value="Page" />
+                  <option name="moduleName" value="blog-mapper" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="blogs:tag">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="tag_id" />
+                  <option name="javaModelName" value="Tag" />
+                  <option name="moduleName" value="blog-mapper" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="blogs:user">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="user_id" />
+                  <option name="javaModelName" value="User" />
+                  <option name="moduleName" value="blog-mapper" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="useCommonMapper" value="true" />
+        <option name="xmlMapperPackage" value="mapper" />
+        <option name="xmlMapperPath" value="$PROJECT_DIR$/blog-mapper/src/main/resources" />
+      </ProjectProfile>
+    </option>
+  </component>
+</project>

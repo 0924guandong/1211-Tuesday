@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-business" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-business/blog-article-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-business/blog-datasource" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-business/blog-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-domain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-dubbo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-dubbo/blog-dubbo-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-dubbo/blog-dubbo-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-interceptor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-sentinel" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-sentinel/blog-sentinel-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-sentinel/blog-sentinel-consumer2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-sentinel2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-sentinel2/blog-sentinel-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-sentinel2/blog-sentinel-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-service" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="blog-sentinel-consumer" />
+        <module name="blog-feign" />
+        <module name="blog-domain" />
+        <module name="blog-sentinel-provider" />
+        <module name="blog-dubbo-api" />
+        <module name="blog-dubbo-service" />
+        <module name="blog-mapper" />
+        <module name="blog-interceptor" />
+        <module name="blog-datasource" />
+        <module name="blog-article-test" />
+        <module name="blog-gateway" />
+        <module name="blog-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="1211Tuesday" target="1.8" />
+      <module name="blog-article-test" target="1.8" />
+      <module name="blog-business" target="1.8" />
+      <module name="blog-datasource" target="1.8" />
+      <module name="blog-domain" target="1.8" />
+      <module name="blog-dubbo" target="1.8" />
+      <module name="blog-dubbo-api" target="1.8" />
+      <module name="blog-dubbo-service" target="1.8" />
+      <module name="blog-feign" target="1.8" />
+      <module name="blog-gateway" target="1.8" />
+      <module name="blog-interceptor" target="1.8" />
+      <module name="blog-mapper" target="1.8" />
+      <module name="blog-sentinel" target="1.8" />
+      <module name="blog-sentinel-consumer" target="1.8" />
+      <module name="blog-sentinel-provider" target="1.8" />
+      <module name="blog-sentinel2" target="1.8" />
+      <module name="blog-service" target="1.8" />
+      <module name="dependencies" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="blog-article-test" options="-parameters" />
+      <module name="blog-datasource" options="-parameters" />
+      <module name="blog-domain" options="-parameters" />
+      <module name="blog-dubbo" options="-parameters" />
+      <module name="blog-dubbo-api" options="-parameters" />
+      <module name="blog-dubbo-service" options="-parameters" />
+      <module name="blog-feign" options="-parameters" />
+      <module name="blog-gateway" options="-parameters" />
+      <module name="blog-interceptor" options="-parameters" />
+      <module name="blog-mapper" options="-parameters" />
+      <module name="blog-sentinel" options="-parameters" />
+      <module name="blog-sentinel-consumer" options="-parameters" />
+      <module name="blog-sentinel-provider" options="-parameters" />
+      <module name="blog-sentinel2" options="-parameters" />
+      <module name="blog-service" options="-parameters" />
+    </option>
+  </component>
+</project>

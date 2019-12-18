@@ -1,0 +1,61 @@
+server:
+  port: 9092
+
+spring:
+  application:
+    # 服务名
+    name: alibaba-gateway2
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      discovery:
+        register-enabled: true
+        server-addr: 192.168.66.141:8848
+
+    gateway:
+      discovery:
+        locator:
+          # 可以使用服务名的方式访问，例如
+          #   http://localhost:9090/alibaba-consumer/all/user?origin=abc
+          #   http://localhost:9090/alibaba-provider/user
+          enabled: true
+      routes:
+        # id是标识当前服务的唯一标识，通常和服务名保持一致
+        - id: sentinel-provider
+          # lb(load balance)
+          uri: lb://sentinel-provider
+          # 谓词
+          predicates:
+            # 通过访问http://localhost:9091/users 会定位到 alibaba-consumer这个服务中 /users
+            - Path=/ac/get
+            # 值请求中必须携带 orgin=xx 这样的参数, \w+表示的 a-zA-Z0-9_
+            # \w: a-zA-Z0-9_
+            # \d: 0-9
+            # \s: 空格 \t \r\n
+            # +: 一到多次
+            # *: 0到多次
+            # ?: 一次或者0次
+            # .: 表示任何字符
+#            - Query=origin,[a-zA-z]+
+#            - Method=get
+#            # 表示请求头中必须携带token变量，参数值必须是 a-zA-Z0-9_ 出现一到多次
+#            - Header=token,\w+
+#            - After=2019-12-16T00:00:00+15:38[Asia/Shanghai]
+#            - Before=2019-12-31T00:00:00+08:00[Asia/Shanghai]
+#            # 172.18.96.0/28  172.18.96.0-172.18.96.15
+#            - RemoteAddr=172.18.96.128/26
+#          filters:
+#            # (?) 表示将这一组数据抽取出来，<abc>将抽取的数据赋值给abc
+#            # /ac/users/23   abc=/users/23 ${abc}
+#            # http://localhost:9091/ac/users
+#            - RewritePath=/ac(?<abc>/?.*),$\{abc}
+#            - Customize=abc,XYZ
+
+        - id: sentinel-consumer
+          uri: lb://sentinel-consumer
+          predicates:
+            - Path=/ap/var1
+#            - Method=post
+#          filters:
+#            - RewritePath=/ap(?<abc>/?.*), $\{abc}

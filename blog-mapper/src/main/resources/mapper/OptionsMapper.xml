@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gd.spring.cloud.alibaba.blog.search.mapper.OptionsMapper">
+  <resultMap id="BaseResultMap" type="com.gd.spring.cloud.alibaba.blog.search.domain.Options">
+    <!--@mbg.generated generated on Wed Dec 11 15:00:14 CST 2019.-->
+    <!--@Table options-->
+    <id column="option_id" jdbcType="INTEGER" property="optionId" />
+    <result column="option_site_title" jdbcType="VARCHAR" property="optionSiteTitle" />
+    <result column="option_site_descrption" jdbcType="VARCHAR" property="optionSiteDescrption" />
+    <result column="option_meta_descrption" jdbcType="VARCHAR" property="optionMetaDescrption" />
+    <result column="option_meta_keyword" jdbcType="VARCHAR" property="optionMetaKeyword" />
+    <result column="option_aboutsite_avatar" jdbcType="VARCHAR" property="optionAboutsiteAvatar" />
+    <result column="option_aboutsite_title" jdbcType="VARCHAR" property="optionAboutsiteTitle" />
+    <result column="option_aboutsite_content" jdbcType="VARCHAR" property="optionAboutsiteContent" />
+    <result column="option_aboutsite_wechat" jdbcType="VARCHAR" property="optionAboutsiteWechat" />
+    <result column="option_aboutsite_qq" jdbcType="VARCHAR" property="optionAboutsiteQq" />
+    <result column="option_aboutsite_github" jdbcType="VARCHAR" property="optionAboutsiteGithub" />
+    <result column="option_aboutsite_weibo" jdbcType="VARCHAR" property="optionAboutsiteWeibo" />
+    <result column="option_tongji" jdbcType="VARCHAR" property="optionTongji" />
+    <result column="option_status" jdbcType="INTEGER" property="optionStatus" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Wed Dec 11 15:00:14 CST 2019.-->
+    option_id, option_site_title, option_site_descrption, option_meta_descrption, option_meta_keyword, 
+    option_aboutsite_avatar, option_aboutsite_title, option_aboutsite_content, option_aboutsite_wechat, 
+    option_aboutsite_qq, option_aboutsite_github, option_aboutsite_weibo, option_tongji, 
+    option_status
+  </sql>
+</mapper>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gd.spring.cloud.alibaba.blog.search.mapper.LinkMapper">
+  <resultMap id="BaseResultMap" type="com.gd.spring.cloud.alibaba.blog.search.domain.Link">
+    <!--@mbg.generated generated on Wed Dec 11 15:00:14 CST 2019.-->
+    <!--@Table link-->
+    <id column="link_id" jdbcType="INTEGER" property="linkId" />
+    <result column="link_url" jdbcType="VARCHAR" property="linkUrl" />
+    <result column="link_name" jdbcType="VARCHAR" property="linkName" />
+    <result column="link_image" jdbcType="VARCHAR" property="linkImage" />
+    <result column="link_description" jdbcType="VARCHAR" property="linkDescription" />
+    <result column="link_owner_nickname" jdbcType="VARCHAR" property="linkOwnerNickname" />
+    <result column="link_owner_contact" jdbcType="VARCHAR" property="linkOwnerContact" />
+    <result column="link_update_time" jdbcType="TIMESTAMP" property="linkUpdateTime" />
+    <result column="link_create_time" jdbcType="TIMESTAMP" property="linkCreateTime" />
+    <result column="link_order" jdbcType="INTEGER" property="linkOrder" />
+    <result column="link_status" jdbcType="INTEGER" property="linkStatus" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Wed Dec 11 15:00:14 CST 2019.-->
+    link_id, link_url, link_name, link_image, link_description, link_owner_nickname, 
+    link_owner_contact, link_update_time, link_create_time, link_order, link_status
+  </sql>
+</mapper>

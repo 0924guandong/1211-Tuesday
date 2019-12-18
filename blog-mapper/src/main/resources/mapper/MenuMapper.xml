@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gd.spring.cloud.alibaba.blog.search.mapper.MenuMapper">
+  <resultMap id="BaseResultMap" type="com.gd.spring.cloud.alibaba.blog.search.domain.Menu">
+    <!--@mbg.generated generated on Wed Dec 11 15:00:14 CST 2019.-->
+    <!--@Table menu-->
+    <id column="menu_id" jdbcType="INTEGER" property="menuId" />
+    <result column="menu_name" jdbcType="VARCHAR" property="menuName" />
+    <result column="menu_url" jdbcType="VARCHAR" property="menuUrl" />
+    <result column="menu_level" jdbcType="INTEGER" property="menuLevel" />
+    <result column="menu_icon" jdbcType="VARCHAR" property="menuIcon" />
+    <result column="menu_order" jdbcType="INTEGER" property="menuOrder" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Wed Dec 11 15:00:14 CST 2019.-->
+    menu_id, menu_name, menu_url, menu_level, menu_icon, menu_order
+  </sql>
+</mapper>

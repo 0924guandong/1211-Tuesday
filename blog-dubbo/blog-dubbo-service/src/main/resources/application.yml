@@ -1,0 +1,27 @@
+
+spring:
+  application:
+    name: blog-dubbo-service
+  main:
+    allow-bean-definition-overriding:  true
+
+dubbo:
+  scan:
+    base-packages: com.gd.spring.cloud.alibaba.blog.search
+  protocol:
+    name: dubbo
+    port: -1
+    serialization: kryo
+  registry:
+    address: nacos://192.168.66.141:8848
+  provider:
+    loadbalance: random
+
+server:
+  port: 11112
+
+-Dcsp:
+  sentinel:
+    api:
+      port：: 8888
+

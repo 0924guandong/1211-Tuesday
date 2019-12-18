@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gd.spring.cloud.alibaba.blog.search.mapper.CategoryMapper">
+  <resultMap id="BaseResultMap" type="com.gd.spring.cloud.alibaba.blog.search.domain.Category">
+    <!--@mbg.generated generated on Wed Dec 11 15:00:14 CST 2019.-->
+    <!--@Table category-->
+    <id column="category_id" jdbcType="INTEGER" property="categoryId" />
+    <result column="category_pid" jdbcType="INTEGER" property="categoryPid" />
+    <result column="category_name" jdbcType="VARCHAR" property="categoryName" />
+    <result column="category_description" jdbcType="VARCHAR" property="categoryDescription" />
+    <result column="category_order" jdbcType="INTEGER" property="categoryOrder" />
+    <result column="category_icon" jdbcType="VARCHAR" property="categoryIcon" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Wed Dec 11 15:00:14 CST 2019.-->
+    category_id, category_pid, category_name, category_description, category_order, category_icon
+  </sql>
+</mapper>

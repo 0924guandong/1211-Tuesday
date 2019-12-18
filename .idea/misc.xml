@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-domain/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-service/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-business/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-business/blog-article-test/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-business/blog-datasource/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-business/blog-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-dubbo/blog-dubbo-service/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-dubbo/blog-dubbo-api/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-sentinel/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-sentinel/blog-sentinel-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-sentinel2/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-sentinel2/blog-sentinel-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-sentinel2/blog-sentinel-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-gateway/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/blog-sentinel/blog-sentinel-consumer2/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-sentinel/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

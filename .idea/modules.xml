@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/1211Tuesday.iml" filepath="$PROJECT_DIR$/.idea/1211Tuesday.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-business/blog-article-test/blog-article-test.iml" filepath="$PROJECT_DIR$/blog-business/blog-article-test/blog-article-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-business/blog-business.iml" filepath="$PROJECT_DIR$/blog-business/blog-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-business/blog-datasource/blog-datasource.iml" filepath="$PROJECT_DIR$/blog-business/blog-datasource/blog-datasource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-domain/blog-domain.iml" filepath="$PROJECT_DIR$/blog-domain/blog-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-dubbo/blog-dubbo.iml" filepath="$PROJECT_DIR$/blog-dubbo/blog-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-dubbo/blog-dubbo-api/blog-dubbo-api.iml" filepath="$PROJECT_DIR$/blog-dubbo/blog-dubbo-api/blog-dubbo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-dubbo/blog-dubbo-service/blog-dubbo-service.iml" filepath="$PROJECT_DIR$/blog-dubbo/blog-dubbo-service/blog-dubbo-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-business/blog-feign/blog-feign.iml" filepath="$PROJECT_DIR$/blog-business/blog-feign/blog-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-gateway/blog-gateway.iml" filepath="$PROJECT_DIR$/blog-gateway/blog-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-interceptor/blog-interceptor.iml" filepath="$PROJECT_DIR$/blog-interceptor/blog-interceptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-mapper/blog-mapper.iml" filepath="$PROJECT_DIR$/blog-mapper/blog-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-sentinel2/blog-sentinel-consumer/blog-sentinel-consumer.iml" filepath="$PROJECT_DIR$/blog-sentinel2/blog-sentinel-consumer/blog-sentinel-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-sentinel2/blog-sentinel-provider/blog-sentinel-provider.iml" filepath="$PROJECT_DIR$/blog-sentinel2/blog-sentinel-provider/blog-sentinel-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-sentinel2/blog-sentinel2.iml" filepath="$PROJECT_DIR$/blog-sentinel2/blog-sentinel2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-service/blog-service.iml" filepath="$PROJECT_DIR$/blog-service/blog-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dependencies/dependencies.iml" filepath="$PROJECT_DIR$/dependencies/dependencies.iml" />
+    </modules>
+  </component>
+</project>
